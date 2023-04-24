@@ -1,4 +1,4 @@
-name = input('Введите ваше имя ')
-password = input('Введите ваш пароль ')
-age = input('Введите ваш возраст ')
-print(f'Ваши данные для входа в аккаунт: Имя - {name}, пароль - {password}, возраст - {age}')
+a = float(input('Введите время в секундах '))
+hour = a/3600
+minute = a/60
+print(f"Время в формате ч:м:с - {hour} : {minute} : {a}")
